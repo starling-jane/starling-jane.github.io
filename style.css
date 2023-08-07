@@ -1,0 +1,46 @@
+body {
+    background-color: #090009;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 800;
+}
+
+a {
+    color: #FF1898;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF68E8;
+}
+
+h1, h2, h3 {
+    margin: 10px;
+}
+
+h1 {
+    color: #FFC0FF;
+}
+
+h2 {
+    color: #FF00FF;
+}
+
+h3 {
+    color: #FF80FF;
+}
+
+#pfp {
+    /* flag colours
+        lesbian five stripe: #D62800, #FF9B56, #FFFFFF, #D462A6, #A40062
+            #D62800, #D62800, #FF9B56, #FF9B56, #FFFFFF, #FFFFFF, #D462A6, #D462A6, #A40062, #A40062
+        trans: #5BCFFB, #F5ABB9, #FFFFFF, #F5ABB9, #5BCFFB
+            #5BCFFB, #5BCFFB, #F5ABB9, #F5ABB9, #FFFFFF, #FFFFFF, #F5ABB9, #F5ABB9, #5BCFFB, #5BCFFB
+        rainbow: #E50000, #FF8D00, #FFEE00, #028121, #004CFF, #760088
+    */
+    background: linear-gradient(#FFFFFF, #FFFFFF) padding-box,
+        linear-gradient(to bottom, #D62800, #D62800, #FF9B56, #FF9B56, #FFFFFF, #FFFFFF, #D462A6, #D462A6, #A40062, #A40062) border-box;
+    border-radius: 50%;
+    border: 1em solid transparent;
+}
