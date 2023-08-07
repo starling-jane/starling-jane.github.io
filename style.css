@@ -5,7 +5,19 @@ body {
     font-size: 0.9em;
     font-weight: 800;
 }
-
+#container {
+    width: 27em;
+    float: none;
+    margin: auto;
+}
+@media only screen and (max-width: 1080px) {
+    body {
+        font-size: 2em;
+    }
+    #container {
+        width: 90%;
+    }
+}
 a {
     color: #FF1898;
     text-decoration: none;
